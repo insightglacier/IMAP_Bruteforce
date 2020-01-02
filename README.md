@@ -23,14 +23,23 @@ OPTIONS:
 ```
 
 -s SERVER
+
     imap 服务器地址，默认是imap.exmail.qq.com
--p PORT 
+
+-p PORT
+
     imap 服务器端口，默认是imaps的993端口
+
 -d DOMAIN
+
     要爆破的企业域名，该项为必须
+
 -u USER
+
     要爆破的用户名，或者存有用户名的文件列表（一行一个），默认读取当前目录下的email.txt
+
 -o [OUTPUT]
+
     输出的结果文件，默认保存在result.txt
 
 除此之外，在当前目录下生成logs.txt文件，保存错误以及验证失败的日志信息。方便分析情况。
